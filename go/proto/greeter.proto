@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package greeter;
 
-option go_package = "";
+option go_package = "https://github.com/loveavoider/testGRPC/tree/main/go/proto";
 
 service Greeter {
     rpc SayHello(Person) returns (HelloPerson) {};
